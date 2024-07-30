@@ -1,18 +1,18 @@
 import NavBar from "../compenents/common/NavBar";
 import SideBar from "../compenents/common/SideBar";
-import Header from "../pages/Header";
 import Home from "../pages/Home";
 
 const MainLayout = () => {
   return (
-    <div className="max-w-screen-xl mx-auto mt-4">
+    <div className="bg-custom-gray">
+      <div className=" max-w-screen-xl mx-auto h-screen  flex flex-col ">
       <NavBar />
-      <div className="flex flex-row-reverse">
-        <div>
-          <Header />
+      <div className="flex flex-row-reverse flex-grow overflow-hidden">
+        <div className="flex-grow overflow-y-auto">
           <Home />
         </div>
         <SideBar />
+      </div>
       </div>
     </div>
   );

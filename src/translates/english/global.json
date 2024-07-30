@@ -1,9 +1,11 @@
 {
     "header": {
-        "message" : "Welcome to the Google Cloud Platform"
+        "language" : "Language"
     },
     "home" : {
-        "body" : "here is the google cloud"
+        "balance" : "Your Currect Balance",
+        "taka" : "Taka",
+        "sendMoney" : "Sent Money"
     }
 
 }
