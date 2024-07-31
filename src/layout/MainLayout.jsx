@@ -4,7 +4,7 @@ import Home from "../pages/Home";
 
 const MainLayout = () => {
   return (
-    <div className="bg-custom-gray">
+    <div className="bg-custom-gray ">
       <div className=" max-w-screen-xl mx-auto h-screen  flex flex-col ">
       <NavBar />
       <div className="flex flex-row-reverse flex-grow overflow-hidden">

@@ -5,7 +5,7 @@ import PrimaryBtn from "../compenents/buttons/PrimaryBtn";
 const Home = () => {
   const [t, i18n] = useTranslation("global");
   return (
-    <div className="py-3 space-y-3">
+    <div className="p-3 space-y-3">
       <h2 className="text-6xl font-bold text-custom-orange">
         {t("home.balance")} <br /> 40 {t("home.taka")}
       </h2>

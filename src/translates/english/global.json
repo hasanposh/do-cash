@@ -3,7 +3,7 @@
         "language" : "Language"
     },
     "home" : {
-        "balance" : "Your Currect Balance",
+        "balance" : "Your Currect Balance :",
         "taka" : "Taka",
         "sendMoney" : "Sent Money"
     }
