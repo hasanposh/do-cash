@@ -5,7 +5,9 @@
     "home" : {
         "balance" : "আপনার বর্তমান ব্যালেন্স :",
         "taka" : " টাকা",
-        "sendMoney" : "টাকা পাঠান"
+        "sendMoney" : "টাকা পাঠান",
+        "requestMoney" : "টাকার অনুরোধ",
+        "withdrawMoney" : "টাকা উঠান"
     }
 
 }

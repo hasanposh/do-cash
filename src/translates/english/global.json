@@ -5,7 +5,9 @@
     "home" : {
         "balance" : "Your Currect Balance :",
         "taka" : "Taka",
-        "sendMoney" : "Sent Money"
+        "sendMoney" : "Sent Money",
+        "requestMoney"  : "Request Money",
+        "withdrawMoney" : "Widraw Money"
     }
 
 }

@@ -12,7 +12,7 @@ const LanguageToggle = () => {
   };
   return (
     <label className="flex items-center relative w-max cursor-pointer select-none">
-      <span className="text-lg font-bold mr-3">{t("header.language")}</span>
+      <span className="text-lg mr-2">{t("header.language")}</span>
       <input
         type="checkbox"
         className="sr-only peer"
