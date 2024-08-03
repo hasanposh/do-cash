@@ -3,11 +3,17 @@
         "language" : "ভাষা"
     },
     "home" : {
-        "balance" : "আপনার বর্তমান ব্যালেন্স :",
+        "balance" : "বর্তমান ব্যালেন্স :",
         "taka" : " টাকা",
         "sendMoney" : "টাকা পাঠান",
         "requestMoney" : "টাকার অনুরোধ",
-        "withdrawMoney" : "টাকা উঠান"
+        "withdrawMoney" : "টাকা উঠান",
+        "transactions" : "লেনদেন সমূহ :"
+    },
+    "sideBar" : {
+        "home" : "হোম",
+        "recipients" : "গ্রাহক গন",
+        "transactions" : "লেনদেন সমূহ"
     }
 
 }

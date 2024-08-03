@@ -14,7 +14,7 @@ const NavBar = () => {
             <LanguageToggle />
             <label
               htmlFor="my-drawer"
-              className="cursor-pointer bg-base-200 rounded-full hover:bg-neutral-400 size-14 ml-4 mr-1"
+              className="cursor-pointer bg-base-200 rounded-full hover:bg-neutral-400 size-14 ml-2 md:ml-4 mr-1 transition duration-200 ease-in-out"
             >
               <img src="/bell.svg" alt="" />
             </label>
@@ -24,7 +24,7 @@ const NavBar = () => {
                 <div
                   tabIndex={0}
                   role="button"
-                  className="btn btn-ghost btn-block h-[75px] avatar"
+                  className="btn btn-ghost p-0 md:p-2 btn-block h-[75px] avatar"
                 >
                   <div className="size-14 rounded-full">
                     <img
@@ -32,7 +32,7 @@ const NavBar = () => {
                       src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
                     />
                   </div>
-                  <h2 className="ml-2">Md Hasan Mahmud</h2>
+                  <h2 className="md:ml-2 hidden md:block">Md Hasan Mahmud</h2>
                   {/* <img className="w-4 hidden" src="/down.svg" alt="" /> */}
                   {/* <img className="size-6" src="/up.svg" alt="" /> */}
                 </div>
@@ -58,13 +58,13 @@ const NavBar = () => {
           </div>
         </div>
       </div>
-      <div className="drawer-side">
+      <div className="drawer-side z-10">
         <label
           htmlFor="my-drawer"
           aria-label="close sidebar"
           className="drawer-overlay"
         ></label>
-        <ul className="menu bg-custom-orange text-base-content min-h-full w-[550px] p-4">
+        <ul className="menu bg-custom-orange text-base-content min-h-full w-[300px] md:w-[550px] p-4">
           {/* Sidebar content here */}
           <li>
             <a>Sidebar Item 1</a>
