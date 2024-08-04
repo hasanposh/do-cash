@@ -3,12 +3,12 @@
         "language" : "Language"
     },
     "home" : {
-        "balance" : "Currect Balance :",
+        "balance" : "Currect Balance",
         "taka" : "Taka",
         "sendMoney" : "Sent Money",
         "requestMoney"  : "Request Money",
         "withdrawMoney" : "Widraw Money",
-        "transactions" : "Transactions :"
+        "transactions" : "Transactions"
     },
     "sideBar" : {
         "home" : "Home",

@@ -7,9 +7,9 @@ import { useTranslation } from "react-i18next";
 const SideBar = () => {
   const [t, i18n] = useTranslation("global");
   return (
-    <div className="md:w-80 text-custom-orange ">
+    <div className="md:w-44 lg:w-80 text-custom-orange ">
       <div className="flex flex-1 overflow-y-auto">
-        <nav className="flex flex-row md:flex-col justify-between flex-1 px-2 gap-4">
+        <nav className="flex flex-row md:flex-col justify-between flex-1 md:px-2">
           <SideBarNavItems icon={IoHomeOutline} text={t('sideBar.home')} />
           <SideBarNavItems icon={BsPeople} text={t('sideBar.recipients')} />
           <SideBarNavItems icon={TfiReload} text={t('sideBar.transactions')} />

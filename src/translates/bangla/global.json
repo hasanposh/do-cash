@@ -3,12 +3,12 @@
         "language" : "ভাষা"
     },
     "home" : {
-        "balance" : "বর্তমান ব্যালেন্স :",
+        "balance" : "বর্তমান ব্যালেন্স",
         "taka" : " টাকা",
         "sendMoney" : "টাকা পাঠান",
         "requestMoney" : "টাকার অনুরোধ",
         "withdrawMoney" : "টাকা উঠান",
-        "transactions" : "লেনদেন সমূহ :"
+        "transactions" : "লেনদেন সমূহ"
     },
     "sideBar" : {
         "home" : "হোম",
