@@ -27,6 +27,7 @@ const Home = () => {
         </div>
         <TransactionCard />
         <TransactionCard />
+        <TransactionCard />
         <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-custom-gray to-transparent pointer-events-none"></div>
       </div>
     </div>
